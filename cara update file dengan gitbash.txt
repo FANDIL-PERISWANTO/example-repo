@@ -1,0 +1,13 @@
+https://github.com/FANDIL-PERISWANTO/example-repo.git
+
+git clone https:%URL%
+git init	//untuk memastikan main/master
+git status	//cek file yg belum di update
+
+git add . atau README.md	//menambahkan seluruh file
+git commit -m "MESSAGE"	//menambahkan file dengan pesan
+git push -u origin main	//gunakan main jika main, master jika master
+
+git log --topo-order --all --graph --date=local --pretty=format:'%C(green)%h%C(reset) %><(55,trunc)%s%C(red)%d%C(reset) %C(blue)[%an]%C(reset) %C(yellow)%ad%C(reset)%n'
+
+
